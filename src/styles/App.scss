@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.brands{
+  margin-right:.5rem ;
+  font-size: 1rem;
+}
+
+.Footer_Container {
+  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #282828;
+  z-index: 2;
+  position: absolute;
+  top: 189rem;
+  width: 100%;
+ 
+font-family: Roboto;
+font-size: 10px;
+font-weight: 700;
+line-height: 25.5px;
+letter-spacing: 0.1589999943971634px;
+text-align: left;
+
+
+  > .footer {
+    
+
+    > .footer_row1 {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+#footer_row1_logo {
+ 
+}
+
+#footer_row1_logo img {
+  size: 2px;
+}
+
+#footer_row1_logo2 button {
+  padding: 0.75em;
+  border-radius: 10px;
+  background-color: #007bff;
+  border: 1px solid white;
+  color: white;
+}
+
+#footer_row1_logo2 h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+.footer_row2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+  color: white;
+}

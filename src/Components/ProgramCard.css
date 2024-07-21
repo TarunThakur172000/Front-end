@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 35rem;
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0;
+    width: 250px;
+    padding: 20px;
+    border-radius: 2rem;
+  }
+  
+  .sidebar-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #1A73E8;
+    border-radius: 1rem;
+    padding: 16px 0 18px 0;
+  }
+  
+  .sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+  }
+  
+  .content {
+    background-color: #EBF3FF59;
+    flex: 1 1;
+    padding: 20px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    box-shadow: 0px 4px 29.3px 0px #3C3C3C26;
+    margin-left: 1.6rem;
+    width: 47rem;
+    height: 44rem;
+    border-radius: 14px;
+
+  }
+  
+  .header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+  }
+  
+  .program-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+   
+    border-radius: 5px;
+    
+    
+  }
+  
+  .program-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 28rem;
+    text-align: left;
+    
+  }
+  
+  .bonus {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    font-size: 14px;
+    margin-left: 1rem;
+   
+  }
+  
+  .refer-now-button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }

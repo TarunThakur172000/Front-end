@@ -1,0 +1,64 @@
+.cta{
+    display: flex;
+    justify-content: center;
+    background-color: #1A73E8;
+    position: absolute;
+    color: white;
+    position: absolute;
+    left: 16rem;
+    top: 16rem;
+    height: 13.5rem;
+    width: 63rem;
+    border-radius: 12px;
+    border: 1px;
+}
+.headicon{
+    padding: 1.1%;
+    font-size: 4rem;
+    margin-right: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    position: absolute;
+    font-size: 3rem;
+    padding: .5rem;
+    left: 1rem;
+    top: 4.5rem;
+    padding-top: 0rem;
+}
+.FAQs{
+    display: flex;
+}
+
+.Faq-sec{
+   margin: auto;
+    
+}
+.Faq-sec button{
+    margin-top: .5rem;
+    width: 12rem;
+    height: 3rem;
+}
+.faq-ques{
+    text-align: start;
+    margin-left: 7rem;
+    font-size: 14px;
+}
+.faq-ques h1{
+    text-align: center !important;
+    margin-bottom: 1.5rem;
+}
+
+.question{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.question button{
+    margin-top: .5rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+
+}
+.answer{
+    margin-bottom: 2rem;
+}
